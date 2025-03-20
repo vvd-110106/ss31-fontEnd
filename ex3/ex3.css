@@ -1,0 +1,30 @@
+.container {
+    width: 300px;
+    height: auto;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+.colors {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.color {
+    width: 80px;
+    height: 80px;
+    border: 2px solid black;
+    display: flex;
+    color: rgb(46, 44, 44);
+}
+
+.red {
+    background: rgb(240, 85, 85);
+}
+.green {
+    background: rgb(46, 175, 46);
+}
+.purple {
+    background: rgb(194, 67, 194);
+}
